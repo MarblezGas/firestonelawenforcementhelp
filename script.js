@@ -486,7 +486,7 @@ document.getElementById("submitButton").addEventListener("click", () => {
 });
 
 document.getElementById("copyLOVIDButton").addEventListener("click", () => {
-    const copiedText = addedCharges.map(charge => charge.name.toUpperCase()).join(' // ');
+    const copiedText = addedCharges.map(charge => charge.name.toUpperCase()).join(', ');
     copyToClipboard(copiedText);
     console.log('LOVID copied:', copiedText);
 });
