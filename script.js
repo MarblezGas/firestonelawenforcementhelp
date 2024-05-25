@@ -374,7 +374,6 @@ const data = {
 const addedCharges = [];
 
 
-// Function to copy text to clipboard
 function copyToClipboard(text) {
     const textarea = document.createElement('textarea');
     textarea.value = text;
@@ -484,7 +483,6 @@ searchResults.addEventListener('input', (event) => {
 });
 
 document.getElementById("submitButton").addEventListener("click", () => {
-    // No functionality added intentionally
 });
 
 document.getElementById("copyLOVIDButton").addEventListener("click", () => {
