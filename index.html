@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AT0M3S' LEO Assister</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="welcome-box" id="welcomeBox">
+    <h1 class="hello-text">Hello there!</h1>
+    <p>This is still being worked on, so it might be buggy or not even work at all. Use with caution. - AT0M3S</p>
+    <button id="submitButton">Let's Go</button>
+  </div>
+
+  <div class="sidebar" id="sidebar">
+    <a href="#" id="arrestButton">Arrest</a>
+    <a href="#">Cite</a>
+    <a href="#">Settings</a>
+  </div>
+
+  <div class="search-container" id="searchContainer">
+    <h2>LOVID Calculator</h2>
+    <input type="text" placeholder="Search charges" id="searchInput">
+    <div class="search-results" id="searchResults"></div>
+    <div class="label-container">
+      <h3>Added Charges</h3>
+      <div id="addedCharges"></div>
+      <h3 id="totalTimeLabel"><strong>Total time: </strong></h3>
+      <p id="totalTime"></p>
+    </div>
+    <button id="copyLOVIDButton" class="copy-button">Copy LOVID</button>
+    <button id="copyTimeButton" class="copy-button">Copy Time</button>
+  </div>
+
+  <script src="welcome_screen.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
