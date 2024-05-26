@@ -291,7 +291,7 @@ const data = {
     },
     "Evidence": {
         "class": "FELONY B",
-        "time": "900",
+        "time": "900-900",
         "abbreviations": [""]
     },
     "Insurrection": {
